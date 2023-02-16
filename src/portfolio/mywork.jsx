@@ -10,6 +10,7 @@ import thumbnail7 from "./Asset/Screenshot (538).png"
 import thumbnail8 from "./Asset/Screenshot (539).png"
 import thumbnail9 from "./Asset/Screenshot (541).png"
 import thumbnail10 from "./Asset/Screenshot (542).png"
+import thumbnail11 from "./Asset/Screenshot (562).png"
 
 const MyWork = ()=>{
     const navigate = useNavigate()
@@ -41,6 +42,7 @@ const MyWork = ()=>{
                 <div className="thumb"><a href="https://toogle-theme.onrender.com"><div><img src={thumbnail8} alt="icon"/></div> <div className="des">Toogle-theme</div></a></div>
                 <div className="thumb"><a href="https://quiz-app-mcxs.onrender.com"><div><img src={thumbnail9} alt="icon"/></div> <div className="des">Quiz-App</div></a></div>
                 <div className="thumb"><a href="https://shopping-list-6xy0.onrender.com"><div><img src={thumbnail10} alt="icon"/></div> <div className="des">Shopping-List</div></a></div>
+                <div className="thumb"><a href="https://weather-app-ui.onrender.com"><div><img src={thumbnail11} alt="icon"/></div> <div className="des">Weather-App</div></a></div>
             </div>
             </div>
         </>
