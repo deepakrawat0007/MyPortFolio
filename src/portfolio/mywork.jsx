@@ -18,22 +18,22 @@ const MyWork = ()=>{
         navigate(path)
     }
     return(
-        <>
+        <div className="workpage">
         <div className="head">
             <img  src={icon} width={50} height={50} style={{ border:"5px solid rgba(0,0,0,0.7)",boxShadow:"3px 3px 3px black" , borderRadius:"100%" , marginRight:"20px"}} alt="profile"/>
             <p>My Work</p>
-            <div onClick={()=>{handleRoute("/")}}>HOME</div>
-            <div onClick={()=>{handleRoute("/aboutme")}}>About Me</div>
+            <div onClick={()=>{handleRoute("/")}} className="home-btn">HOME</div>
+            <div onClick={()=>{handleRoute("/aboutme")}}>ABOUT ME</div>
         </div>
         
         <div className="works">
-            <div><h2>Full Stack:</h2></div>
+            <div><h2 style={{color:"black"}}>Full Stack:</h2></div>
             <div className="works-wrapper">
                 <div className="thumb"><a href="https://laundrycart-ui.onrender.com"><div><img src={thumbnail} alt="icon"/></div> <div className="des">Laundry Cart</div></a></div>
                 <div className="thumb"> <a href="https://instaclone-front.onrender.com"><div><img src={thumbnail2} alt="icon"/></div><div className="des">InstaClone</div></a></div>
                 <div className="thumb"> <a href="https://todo-ui-2m1r.onrender.com"><div><img src={thumbnail3} alt="icon"/></div><div className="des">Todo-List</div></a></div>
             </div>
-            <div><h2>React-JS:</h2></div>
+            <div><h2 style={{color:"black"}}>React-JS:</h2></div>
             <div className="works-wrapper">
                 <div className="thumb"><a href="https://book-search-app-ui.onrender.com"><div><img src={thumbnail4} alt="icon"/></div> <div className="des">Book Search</div></a></div>
                 <div className="thumb"><a href="https://e-commerce-e1qe.onrender.com"><div><img src={thumbnail5} alt="icon"/></div> <div className="des">E-Commerce</div></a></div>
@@ -45,7 +45,7 @@ const MyWork = ()=>{
                 <div className="thumb"><a href="https://weather-app-ui.onrender.com"><div><img src={thumbnail11} alt="icon"/></div> <div className="des">Weather-App</div></a></div>
             </div>
             </div>
-        </>
+        </div>
     )
 }
 

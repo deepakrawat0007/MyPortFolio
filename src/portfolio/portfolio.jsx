@@ -7,7 +7,7 @@ const PortFolio = ()=>{
          navigate(path)
     }
     return (
-        <>
+        <div className="homepage">
         <div className="container">
             <div className="head">
                 <p>My PortFolio</p>
@@ -27,7 +27,7 @@ const PortFolio = ()=>{
             </div>
 
         </div>
-        </>
+        </div>
     )
 }
 

@@ -1,14 +1,39 @@
 body{
-    background-image: url("https://w0.peakpx.com/wallpaper/421/437/HD-wallpaper-plain-purple-background-purple.jpg");
-    background-size: cover;
-    padding-left: 5%;
-    padding-right: 5%;
+   
+    
+
     color: ghostwhite;
 }
+.homepage{
+    background-image: url("./Asset/5172658.jpg");
+    background-size: cover;
+}
+.workpage{
+    background-image: url("./Asset/5291450.jpg");
+    background-size: cover;
+    
+}
+.aboutmepage{
+    width: 100vw;
+    height: 100vh;
+
+    background-image: url("./Asset/vintage-grunge-blue-marble-background.jpg");
+    background-size: cover; 
+}
+
 .head{
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgba(0,0,0,0.3);
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.7);
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    
+}
+.works{
+    padding-left: 5%;
+    padding-right: 5%;
 }
 .head p{
     cursor: pointer;
@@ -30,6 +55,7 @@ body{
     justify-content: center;
 }
 .profile img{
+    margin-top:2%;
     border-radius: 100%;
     box-shadow: 3px 3px 3px 3px lightblue ;
 }
@@ -42,7 +68,7 @@ body{
     font-style: oblique;
 }
 
-.name h2{
+.name > h2{
     margin-top: 10px;
 }
 .prof h2{
@@ -54,7 +80,7 @@ button{
     background-color: transparent;
     color: ghostwhite;
     font-size: 25px;
-    margin: 20px;
+
     cursor:pointer;
     border: 2px solid white;
 }
@@ -116,12 +142,14 @@ a{
 .thumb img{
     width: 25vw;
     border-radius: 20px;
-    border: 2px solid gray;
-    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.7);
     cursor: pointer;
     height: 25vh;
 
 }
+
+
 .cards p{
 text-align: center;
 }
@@ -142,4 +170,22 @@ text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.name , .prof , h2{
+    margin: 0;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btns button{
+    margin-bottom: 2%;
+    width: 80vw;
+
+}
+.aboutme , .skills {
+    padding-left: 5%;
+    padding-right: 5%;
 }

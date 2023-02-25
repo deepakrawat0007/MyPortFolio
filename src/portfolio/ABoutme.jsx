@@ -19,12 +19,12 @@ const AboutMe = ()=>{
         navigate(path)
     }
     return(
-        <>
+        <div className="aboutmepage">
         <div className="head">
             <img onClick={()=>{handleRoute("/")}} src={profile} width={50} height={50} style={{ border:"5px solid rgba(0,0,0,0.7)",boxShadow:"3px 3px 3px black" , borderRadius:"100%" , marginRight:"20px"}} alt="profile"/>
             <p onClick={()=>{handleRoute("/")}}>Deepak Rawat</p>
             <div onClick={()=>{handleRoute("/")}}>HOME</div>
-            <div onClick={()=>{handleRoute("/mywork")}}>My Work</div>
+            <div onClick={()=>{handleRoute("/mywork")}}>MY WORK</div>
         </div>
         <div className="aboutme">
             <div><h2>Intro:</h2></div>
@@ -55,7 +55,7 @@ const AboutMe = ()=>{
             </div>
             </div>
         </div>
-        </>
+        </div>
     )
 }
 
