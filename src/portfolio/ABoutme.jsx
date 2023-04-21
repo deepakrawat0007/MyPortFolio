@@ -28,9 +28,9 @@ const AboutMe = ()=>{
         </div>
         <div className="aboutme">
             <div><h2>Intro:</h2></div>
-            <p>As a fresher Full stack developer with a strong foundation in the MERN (MongoDB, Express.js, React, Node.js) stack and HTML, CSS, and JavaScript, I am eager to contribute my skills to a dynamic team of developers. With a passion for developing modern and efficient web applications, I am excited to take on new challenges and collaborate with others to build innovative solutions.
+            <p>As a fresher Full stack developer with a strong foundation in the MERN (MongoDB, Express.js, React, Node.js) stack and HTML, CSS, and JavaScript, I am eager to contribute my skills to a dynamic team of developers. With a passion for developing modern and efficient web applications, I am excited to take on new challenges and collaborate with others to build innovative solutions.<br></br>
 
-My proficiency in MongoDB enables me to work with highly scalable and flexible databases, while my experience with Express.js and Node.js allows me to handle server-side development and HTTP requests with ease. Additionally, my proficiency in React enables me to build complex and efficient user interfaces, and my knowledge of HTML, CSS, and JavaScript enables me to create responsive and visually appealing front-end designs.
+My proficiency in MongoDB enables me to work with highly scalable and flexible databases, while my experience with Express.js and Node.js allows me to handle server-side development and HTTP requests with ease. Additionally, my proficiency in React enables me to build complex and efficient user interfaces, and my knowledge of HTML, CSS, and JavaScript enables me to create responsive and visually appealing front-end designs.<br></br>
 
 As a full stack developer, I understand the importance of creating high-quality, maintainable code, and I am committed to implementing best practices and adhering to industry standards. I am a dedicated and motivated team player who enjoys collaborating with others to deliver successful projects. With a strong desire to continuously learn and improve, I am confident that I can make valuable contributions to any development team..</p>
         </div>
