@@ -12,6 +12,7 @@ import thumbnail9 from "./Asset/Screenshot (541).png"
 import thumbnail10 from "./Asset/Screenshot (542).png"
 import thumbnail11 from "./Asset/Screenshot (562).png"
 import thumbnail12 from "./Asset/Screenshot (588).png"
+import thumbnail13 from "./Asset/Screenshot (610).png"
 
 const MyWork = ()=>{
     const navigate = useNavigate()
@@ -33,6 +34,7 @@ const MyWork = ()=>{
                 <div className="thumb"><a href="https://laundrycart-ui.onrender.com"><div><img src={thumbnail} alt="icon"/></div> <div className="des">Laundry Cart</div></a></div>
                 <div className="thumb"> <a href="https://instaclone-front.onrender.com"><div><img src={thumbnail2} alt="icon"/></div><div className="des">InstaClone</div></a></div>
                 <div className="thumb"> <a href="https://todo-ui-2m1r.onrender.com"><div><img src={thumbnail3} alt="icon"/></div><div className="des">Todo-List</div></a></div>
+                <div className="thumb"> <a href="https://task-manager-omr0.onrender.com/"><div><img src={thumbnail13} alt="icon"/></div><div className="des">Task-Manager</div></a></div>
                 <div className="thumb"> <a href="https://my-gallery-app-ui.onrender.com"><div><img src={thumbnail12} alt="icon"/></div><div className="des">My-Gallery</div></a></div>
             </div>
             <div><h2 style={{color:"black"}}>React-JS:</h2></div>
